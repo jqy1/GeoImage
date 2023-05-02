@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">GeoImage</string>
+    <string name="google_maps_key">AIzaSyDkjJYLaRX3aw7hdcZA2ScIZNpoPMY6siA</string>
+    <string name="app_navi_record">记录</string>
+    <string name="app_navi_my_trip">历史记录</string>
+    <string name="app_navi_setting">历史记录</string>
+    <string name="app_ui_my_trip">我的旅程</string>
+    <string name="app_ui_trip_name">路程名称</string>
+    <string name="app_ui_share_text">分享文字</string>
+    <string name="app_ui_share_file">分享文件</string>
+    <string name="app_ui_share_image">分享图片</string>
+    <string name="GPS">GPS方法</string>
+    <string name="map_type">地图类型</string>
+    <string name="language">语言</string>
+    <string name="GPS_other">GPS + Other sources</string>
+    <string name="GPS_only">仅GPS</string>
+    <string name="map_normal">普通</string>
+    <string name="map_satellite">卫星</string>
+    <string name="map_terrain">地形</string>
+    <string name="map_hybrid">Hybrid</string>
+    <string name="lang_En">English</string>
+    <string name="lang_ch">中文</string>
+
+
+    <string name="app_ok">确定</string>
+    <string name="app_cancel">取消</string>
+    <string name="app_save">保存</string>
+    <string name="app_new">添加</string>
+    <string name="app_edit">修改</string>
+    <string name="app_delete">删除</string>
+    <string name="app_update">更新</string>
+    <string name="app_welcome">Welcome\nKia Ora\n欢迎</string>
+    <string name="app_dialog_trip_name">旅程</string>
+    <string name="app_dialog_trip_tag">标签</string>
+    <string name="app_dialog_trip_description">描述</string>
+    <string name="app_dialog_add_trip">新增</string>
+    <string name="app_dialog_error_info">错误:#Error#</string>
+    <string name="app_dialog_missing_parameter">缺少路径</string>
+    <string name="expand_button_content_description">查看更多.</string>
+    <string name="about">关于</string>
+    <string name="trip_date">旅程时间</string>
+    <string name="app_trip_nearby_share">附近图片共享</string>
+    <string name="app_photos">图片</string>
+    <string name="app_start_share">开始共享</string>
+    <string name="app_cancel_share">停止共享</string>
+    <string name="app_succeed">接收成功</string>
+    <string name="app_start_share_send">发送</string>
+    <string name="edit_tripName">输入新名字</string>
+
+
+</resources>

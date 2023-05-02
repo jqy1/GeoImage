@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">GeoImage</string>
+    <string name="google_maps_key">AIzaSyDkjJYLaRX3aw7hdcZA2ScIZNpoPMY6siA</string>
+    <string name="app_navi_record">Record</string>
+    <string name="app_navi_my_trip">My Trip</string>
+    <string name="app_navi_setting">Setting</string>
+    <string name="app_ui_my_trip">My Trip</string>
+    <string name="app_ui_trip_name">Trip Name</string>
+    <string name="app_ui_share_text">Share text</string>
+    <string name="app_ui_share_file">Share file</string>
+    <string name="app_ui_share_image">Share image</string>
+    <string name="GPS">GPS Methods</string>
+    <string name="map_type">Map Type</string>
+    <string name="language">Language</string>
+    <string name="GPS_other">GPS + Other sources</string>
+    <string name="GPS_only">GPS Only</string>
+    <string name="map_normal">Normal</string>
+    <string name="map_satellite">Satellite</string>
+    <string name="map_terrain">Terrain</string>
+    <string name="map_hybrid">Hybrid</string>
+    <string name="lang_En">English</string>
+    <string name="lang_ch">Chinese</string>
+
+
+    <string name="app_ok">Ok</string>
+    <string name="app_cancel">Cancel</string>
+    <string name="app_save">Save</string>
+    <string name="app_new">Add</string>
+    <string name="app_edit">Edit</string>
+    <string name="app_delete">Delete</string>
+    <string name="app_update">Update</string>
+    <string name="app_welcome">Welcome\nKia Ora\n欢迎</string>
+    <string name="app_dialog_trip_name">Trip</string>
+    <string name="app_dialog_trip_tag">Tag</string>
+    <string name="app_dialog_trip_description">Desc</string>
+    <string name="app_dialog_add_trip">Add Trip</string>
+    <string name="app_dialog_error_info">Error:#Error#</string>
+    <string name="app_dialog_missing_parameter">Missing path</string>
+    <string name="expand_button_content_description">See more or less information about a dog.</string>
+    <string name="about">About</string>
+    <string name="trip_date">Trip Date</string>
+    <string name="app_trip_nearby_share">Nearby sharing Photos</string>
+    <string name="app_photos">Photos</string>
+    <string name="app_start_share">Start Sharing</string>
+    <string name="app_cancel_share">Stop sharing</string>
+    <string name="app_succeed">received successfully</string>
+    <string name="app_start_share_send">Send</string>
+    <string name="edit_tripName">Enter New Trip Name</string>
+
+
+</resources>

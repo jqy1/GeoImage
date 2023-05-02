@@ -1,0 +1,75 @@
+@startuml
+
+' hide the spot
+hide circle
+
+' avoid problems with angled crows feet
+skinparam linetype ortho
+
+entity "User" as e04 {
+  *userId : number <<generated>>
+  * password : text, encyrptoing by md5 or other.
+  --
+  *nickName : text
+  *mail     : text
+  *date : datetime, automatically recorder by app
+   
+}
+
+
+entity "Trip" as e01 {
+  *TripID : number <<generated>>
+  *userId : number <<FK>>
+  --
+  *name : text
+  *date : datetime
+  description : text
+  tag   : text
+  
+}
+
+entity "Route" as e02 {
+  *routID : number <<generated>>
+  --
+  *tripId : number <<FK>>
+  --
+  description : text
+  tag   : text
+  *createdDate : datetime, automatically recorder by app
+  *updateDate : datetime, automatically recorder by app
+}
+
+entity "File" as e03 {
+  *photoId : number <<generated>>
+  --
+  *routeId : number <<FK>>
+  --
+  * locationPointId <<FK>>
+  --
+  description : text
+  tag   : text
+  type  : file types ( photo, video, text, doc, and etc)
+  path  : text
+
+  *createdDate : datetime, automatically recorder by app
+  *updateDate : datetime, automatically recorder by app
+}
+
+entity "LocationPoint" as e05 {
+  *locationPointId : number <<FK>>
+  --
+  *routeID : number <<FK>>
+  --
+  longitude : double
+  latitude  : double
+}
+
+' e01 ||..o{ e02
+' e01 |o..o{ e03
+
+e04 |o--o{ e01
+e01 |o--o{ e02
+e02 |o..o{ e03
+e03 |o..{ e05
+e02 |o..o{ e05
+@enduml
